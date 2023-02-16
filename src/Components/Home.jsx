@@ -199,26 +199,6 @@ const Home = () => {
               </div>
             </div>
           </div>
-
-          {/* Footer */}
-          <footer>
-            <div>
-              <div className="footer-music">
-                <img src={images.music_1} className="imgStyle" />
-                <div className="footer-music-singer">
-                  <div>
-                    <p>All we know</p>
-                    <p>Rihana</p>
-                  </div>
-                  <div>
-                    <FontAwesomeIcon icon={faHamburger} />
-                  </div>
-                </div>
-              </div>
-              <div></div>
-              <div></div>
-            </div>
-          </footer>
         </section>
       </main>
     </>

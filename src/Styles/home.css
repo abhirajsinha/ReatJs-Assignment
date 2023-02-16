@@ -1,0 +1,327 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #f5f6fa;
+}
+
+.mt-12 {
+  margin-top: 12px;
+}
+
+.mt-18 {
+  margin-top: 18px;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+.ml-9 {
+  margin-left: 9px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-11 {
+  font-size: 11px;
+}
+
+.mt-9 {
+  margin-top: 9px;
+}
+
+.mt-6 {
+  margin-top: 6px;
+}
+
+.mt-32 {
+  margin-top: 32px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+.fs-13 {
+  font-size: 13px;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.pl-2 {
+  padding-left: 2rem;
+}
+.ml-16 {
+  margin-left: 16px;
+}
+
+.ml-21 {
+  margin-left: 21px;
+}
+.pb-0 {
+  padding-bottom: 0px;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.transparent {
+  background: transparent;
+}
+
+.light-grey-text {
+  color: #4a4c4d;
+}
+
+.white {
+  color: white;
+}
+
+.green {
+  background-color: #20bf6b;
+}
+
+.heading-color {
+  color: #95a6d3;
+}
+
+.select-color {
+  color: #c0c4c9;
+}
+
+.hover-color {
+  color: #8294c4;
+}
+
+.center {
+  text-align: center;
+}
+
+.content-section {
+  display: flex;
+}
+
+.left-section {
+  background-color: #262d47;
+  width: 25%;
+}
+
+.menu-bar {
+  padding: 2rem;
+}
+
+.right-section {
+  background: #1d2238;
+  width: 100%;
+}
+
+.browse-menu p {
+  color: #c0c4c9;
+}
+
+.browse-menu div {
+  padding: 1rem;
+  padding-left: 0px;
+  display: flex;
+}
+
+.browse-menu div p:hover {
+  color: #8294c4;
+  cursor: pointer;
+}
+
+.playlist-menu p {
+  color: #c0c4c9;
+}
+.playlist-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.playlist-songs p {
+  padding: 1rem;
+  padding-left: 0px;
+  font-size: 13px;
+}
+
+.playlist-songs p:hover {
+  color: #8294c4;
+  cursor: pointer;
+}
+
+.player {
+  width: 100%;
+  height: 2.6rem;
+  background: #262d47;
+}
+
+.header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.header input {
+  background: transparent;
+  border: none;
+  padding: 1rem;
+  border-radius: 50px;
+  color: #808696;
+  font-weight: 700;
+}
+
+.user {
+  display: flex;
+  padding: 1rem;
+}
+
+.user-name {
+  display: flex;
+}
+.user-name p {
+  justify-content: center;
+  align-self: center;
+  color: #808696;
+  margin-left: 10px;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 7rem;
+}
+
+.release-tittle {
+  margin-top: 2rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.headline h1 {
+  font-size: 3.8rem;
+}
+
+.desc {
+  margin-top: 1rem;
+  line-height: 32px;
+}
+.desc p {
+  color: #808696;
+  font-weight: 800;
+}
+.banner img {
+  height: 29rem;
+}
+
+.play-btn {
+  width: 6rem;
+  border-radius: 42px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background: #0ec0d2;
+  border: none;
+  height: 2rem;
+  font-weight: 700;
+}
+
+.songs {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 67%;
+  margin-top: 2rem;
+}
+
+.song-img img {
+  border-radius: 10px;
+  height: 9rem;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 11px;
+}
+
+.music-section-title {
+  margin-top: 5rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding-left: 2rem;
+}
+
+.music-sec {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 51px;
+  font-size: 20px;
+}
+
+.new-palyed {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.new-played-songs {
+  display: flex;
+  padding-top: 10px;
+}
+.music-lists {
+  width: 90vh;
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid red;
+  border-radius: 10px;
+}
+
+.music-lists p {
+  font-size: 20px;
+}
+.new-played-songs {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-played-songs-lists {
+  display: flex;
+  width: 30vw;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(38, 45, 71, 255);
+  border-radius: 10px;
+}
+
+.imgStyle {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.video{
+  padding-top: 10px;
+}
+
+/* footer */
+.footer-music {
+  width: 25vw;
+  display: flex;
+  padding: 10px;
+  gap: 1;
+}
+
+.footer-music-singer {
+  display: flex;
+  gap: 1;
+}

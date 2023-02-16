@@ -312,16 +312,3 @@
 .video{
   padding-top: 10px;
 }
-
-/* footer */
-.footer-music {
-  width: 25vw;
-  display: flex;
-  padding: 10px;
-  gap: 1;
-}
-
-.footer-music-singer {
-  display: flex;
-  gap: 1;
-}
